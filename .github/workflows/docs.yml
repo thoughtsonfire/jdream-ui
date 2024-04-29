@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2 # 使用 actions/setup-node action 设置 Node.js 环境
         with:
-          node-version: 18 # 指定使用的 Node.js 版本
+          node-version: 16 # 指定使用的 Node.js 版本
 
       - name: Install dependencies
         run: npm install # 安装项目依赖，这里假设使用 npm，如果使用 pnpm 或 yarn，需要相应调整命令
