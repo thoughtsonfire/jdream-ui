@@ -1,7 +1,8 @@
 module.exports = {
     title: 'Hello JDreamUI',
     description: 'Just playing around',
-    base:"git@github.com:thoughtsonfire/jdream-ui.git",
+    base:"/blog/",
+    title:"jdream-ui",
     themeConfig: {
     nav: [
             { text: '首页', link: '/' },
