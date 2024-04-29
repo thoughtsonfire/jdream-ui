@@ -1,4 +1,4 @@
-module.exports = {
+export default{
     title: 'Hello JDreamUI',
     description: 'Just playing around',
     base:"/jdream-ui/",
