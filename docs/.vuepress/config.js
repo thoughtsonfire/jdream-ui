@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Hello JDreamUI',
     description: 'Just playing around',
-    base:"/thoughtsonfire/jdream-ui/",
+    base:"/jdream-ui/",
     title:"jdream-ui",
     themeConfig: {
     nav: [
