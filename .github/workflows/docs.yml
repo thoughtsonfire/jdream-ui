@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup npm
-        uses: npm/action-setup@v2
+        uses: npm/actions-setup@v2
         with:
           # 选择要使用的 pnpm 版本
           version: 9
