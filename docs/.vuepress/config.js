@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Hello JDreamUI',
     description: 'Just playing around',
-    base:"/jdream-ui/",
+    base:"/",
     title:"jdream-ui",
     themeConfig: {
     nav: [
