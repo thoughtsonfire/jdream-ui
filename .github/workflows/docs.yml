@@ -14,9 +14,9 @@ jobs:
         uses: actions/checkout@v2 # 使用 actions/checkout action 检出代码到工作目录
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2 # 使用 actions/setup-node action 设置 Node.js 环境
+        uses: actions/setup-node@v3 # 使用 actions/setup-node action 设置 Node.js 环境，更新为 v3 版本
         with:
-          node-version: 16 # 指定使用的 Node.js 版本
+          node-version: '16' # 指定使用的 Node.js 版本为 16
 
       - name: Install dependencies
         run: npm install # 安装项目依赖，这里假设使用 npm，如果使用 pnpm 或 yarn，需要相应调整命令
