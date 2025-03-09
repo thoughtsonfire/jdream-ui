@@ -1,7 +1,9 @@
-import hxButton from './hxButton/index'
+import jdCollapse from './collapse/index'
+import jdFilter from './filter/index'
 // 存放组件的数组
 const components = [
-    hxButton
+    jdCollapse,
+    jdFilter
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。
@@ -16,7 +18,8 @@ const install = function (Vue) {
 
 export{
     // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
-    hxButton
+    jdCollapse,
+    jdFilter
 }
 export default {
     install
